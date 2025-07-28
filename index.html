@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="search">
+            <input id="input" type="text" placeholder="Enter City Name">
+            <div class="search_icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <div class="indicator"></div>
+        <div class="weather">
+            <div class="weather-img">
+                <img id="image-weather" src="images/clouds.png" alt="">
+                <div class="desc"></div>
+            </div>
+            <div class="Temp">
+                <div class="temperature">30°C</div>
+                <div class="city">Delhi</div>
+            </div>
+            <div class="weather-info">
+                <div class="humid">
+                    <div class="humid-img">
+                        <img src="images/humidity-img.png" alt="">
+                    </div>
+                    <div class="humid-percent style">
+                        <h4>43%</h4>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="wind-speed">
+                    <div class="wind-speed-img">
+                        <img src="images/Wind-speed.webp" alt="">
+                    </div>
+                    <div class="wind-info style">
+                        <h4>20km/h</h4>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="information">
+            <h1>Enter The City Name To Check The Weather Details</h1>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

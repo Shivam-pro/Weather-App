@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(163, 161, 161);
+}
+.container{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.search input{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px 20px 20px 20px;
+}
+.search_icon{
+    font-size: 185x;
+    height: 34px;
+    width: 34px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.indicator{
+    color: red;
+}
+.information{
+    margin-top: 50px;
+    text-align: center;
+}
+.error{
+    color: red;
+    font-size: 20px;
+    display: none;
+}
+.weather{
+    display: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+.weather-img{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-size: 25px;
+}
+.weather-img img{
+    width: 100%;
+}
+.Temp{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.temperature{
+    font-size: 50px;
+    font-weight: 700;
+}
+.city{
+    font-size: 40px;
+    font-weight: 600;
+
+}
+.weather-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+
+}
+.humid,.wind-speed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 20px;
+}
+.humid img{
+    width: 100%;
+}
+.humid-img ,.wind-speed-img{
+    height: 80px;
+    width: 80px;
+}
+.wind-speed img{
+    width: 100%;
+}
+.style h4{
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.style p{
+    font-size: 15px;
+}
